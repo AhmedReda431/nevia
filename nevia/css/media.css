@@ -1,0 +1,70 @@
+@media (max-width: 1199.98px) {
+  .calender-scroll .calender .date {
+    float: none;
+    margin-bottom: 35px;
+    height: 18%;
+  }
+  /* .calender-scroll .calender .data-desc{
+        float: left;
+    } */
+  .informations {
+    padding-right: 15px;
+    word-wrap: break-word;
+  }
+  .media {
+    display: block;
+  }
+  .media i {
+    margin-bottom: 15px;
+  }
+  .secondCarousel {
+    padding: 73px 0;
+    background-color: #303030;
+  }
+}
+@media (max-width: 767px) {
+  .calender-scroll .calender .date {
+    margin-bottom: 10px;
+  }
+  .secondCarousel {
+    padding: 11.8% 0;
+  }
+  header .logo{
+      position: relative;
+  }
+  header .logo span {
+    line-height: 2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 0;
+  }
+  .row {
+    display: block;
+  }
+  header .row,
+  .myNav .row {
+    display: flex !important;
+  }
+  img.plus {
+    top: 50%;
+  }
+  .info {
+    margin-top: 30px;
+  }
+  .info .row {
+    display: flex !important;
+  }
+  header.d-flex {
+    display: block !important;
+  }
+  header .phone {
+    margin-bottom: 5px;
+    font-size: 11px;
+    padding-left: 0;
+    display: inline-block;
+  }
+  .search-box form ul {
+      padding-top: 0 !important;
+  }
+}

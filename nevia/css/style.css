@@ -1,0 +1,367 @@
+html{
+  background-color: #F7F7F7;
+}
+
+.shaded{
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5)
+}
+header .silver{
+  color: #888;
+}
+.container-holder{
+  border-top: 5px solid #169FE6;
+  border-radius: 2px 2px  0 0 ;
+  box-shadow: 0px 0px 4px 1px #000;
+}
+header{
+  padding: 0 5%;
+}
+header .phone{
+  margin-bottom: 5px;
+  padding-left: 26px;
+  font-size: 13px;
+}
+header .logo p{
+  font-size: 35px;
+  display: inline-block;
+  position: relative;
+
+}
+header .logo span{
+  margin-left: 30px;
+}
+header .logo p::after{
+  content: "";
+  position: absolute;
+  height: 37px;
+  width: 2px;
+  background-color: #333;
+  bottom: 0;
+  margin: 6px 0px;
+  margin-left: 17px;
+}
+header .logo{
+  padding:3% 0 2%;
+}
+/****************************************************/
+.myNav .navbar{
+  padding: 0;
+}
+
+.myNav .navbar-expand-lg .navbar-collapse{
+  background-color: #4C4C4C;
+  color: #fff;
+  margin-right: -8px;
+  margin-left: -8px;
+  position: relative;
+}
+.sideOneLeft{
+  border-color: transparent #888 transparent transparent;
+    border-width: 0 9px 9px 0;
+    float: left;
+    left: 1px;
+}
+.sideOneRight{
+  border-color: #888 transparent transparent transparent;
+  border-width: 9px 9px 0 0;
+  float: right;
+  right: 1px;
+}
+.myNav .nav-item{
+  color: #fff;
+  padding: 5px 10px;
+  border-right:1px solid #ccc;
+}
+.myNav .nav-item:last-of-type,.myNav .nav-item:first-of-type{
+  border-right: none;
+}
+ .nav-item.active{
+   background-color: #169FE6;
+   color: #fff;
+ }
+ .navbar-light .navbar-nav .active>.nav-link,.navbar-light .navbar-nav .nav-link{
+   color: #fff;
+ }
+ /*******************************swipper ***/
+.carousel img{
+  width: 100%;
+  height: 100%;
+}
+.firstCarousel{
+  position: relative;
+}
+.firstCarousel img.person{
+  position: absolute;
+    left: 10%;
+    bottom: 0;
+    width: 30%;
+    height: 90%;
+}
+.titleOne{
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  background-color: #169FE6;
+  color: #fff;
+  padding: 15px;
+}
+
+img.plus{
+  width: 50px;
+  height: 50px;
+  left: 50%;
+  bottom: 33%;
+  transform: translate(-50%,-33%);
+  position: absolute;
+}
+
+.secondCarousel{
+  padding: 110px 0;
+  background-color: #303030;
+}
+.carousel-item{
+  height: 100%;
+}
+
+.carousel-item > div{
+  height: 100%;
+}
+
+.carousel-inner{
+  max-height: 68vh;
+}
+.carousel-inner > div{
+  max-height: 100%;
+}
+
+.carousel-control-next, .carousel-control-prev{
+  width: 4%;
+}
+
+/* .carousel-control-next span, .carousel-control-prev span{
+  background-color: #169FE6;
+  color: #fff;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  display: inline-block;
+  width: 44px;
+  height: 51px;
+  background: #fff no-repeat 47%/52% 100%;
+} */
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  display: inline-block;
+  width: 44px;
+  height: 80px;
+  /* background: no-repeat 33%/60% 100%; */
+  background-color: #169FE6;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+}
+
+
+
+.carousel-control-prev:hover .carousel-control-next-icon, .carousel-control-prev:hover .carousel-control-prev-icon {
+  opacity: 1;
+}
+
+.carousel-control-next:hover .carousel-control-next-icon, .carousel-control-next:hover .carousel-control-prev-icon {
+  opacity: 1;
+}
+/**********************************************/
+
+.icon-box-container{
+  padding: 4% 0 2%;
+}
+
+/*************************************/
+.gallery{
+  padding-top: 5%;
+}
+.gallery .grid-container {
+  columns: 5 170px;
+  column-gap: 1.5rem;
+  width: 100%;
+  margin: 0 auto;
+}
+.gallery .grid-container div {
+  width: 190px;
+  margin: 0 1.5rem 1.5rem 0;
+  display: inline-block;
+  width: 100%;
+  border: solid 2px black;
+  padding: 5px;
+  border-radius: 5px;
+  transition: all 0.25s ease-in-out;
+}
+.gallery .grid-container div:hover img {
+  filter: grayscale(0);
+}
+.gallery .grid-container div:hover {
+  border-color: coral;
+}
+
+.gallery .grid-container div:hover .grid-container div p {
+  color: coral;
+}
+.gallery .grid-container div img {
+  width: 100%;
+  filter: grayscale(100%);
+  border-radius: 5px;
+  transition: all 0.25s ease-in-out;
+}
+.gallery .grid-container div p {
+  margin: 5px 0;
+  padding: 0;
+  text-align: center;
+  font-style: italic;
+}
+.gallery .grid-container div p:hover {
+  color: coral;
+}
+
+.news{
+  padding: 4% 0;
+}
+
+/*************************************************/
+.calender-scroll .calender .date{
+  float: left;
+  margin-right: 15px;
+  height: 100%;
+}
+.calender-scroll .calender .date-desc{
+  float: left;
+}
+
+.calender-scroll .col .date .date-day{
+  background-color: #f2f2f2;
+  color: #999;
+  text-align: center;
+  padding: 13px 11px;
+  border-radius: 5px 5px 0 0;
+}
+
+.calender-scroll .col .date .date-month{
+  background-color: #ccc;
+  color: #fff;
+  text-align: center;
+  padding: 3px 11px;
+  border-radius: 0 0 5px 5px;
+}
+
+
+/******************** typing *******************/
+.typing-container .animate-typing {
+  font-size: 20px;
+  text-align: left;
+  padding: 0 20px;
+  font-size: 20px;
+  padding: 10px 20px;
+  
+  background: #f6f6f6;
+  color: #888;
+}
+
+.scroll{
+  position: relative;
+  box-shadow: 0px 1px 2px 0px;
+  z-index: 2;
+}
+.scroll .typing-triangle{
+  position: absolute;
+  left: 30px;
+  background: #f6f6f6;
+  width: 35px;
+  height: 35px;
+  transform: rotate(45deg);
+  bottom: -12px;
+  z-index: -1;
+  box-shadow: 0px 1px 2px 0px;
+}
+
+.scroll .designer{
+  position: absolute;
+  right: 0;
+  bottom: -45px;
+  color: #888;
+}
+
+.scroll .designer span{
+  color: #169FE6;
+}
+
+/**********************************/
+.info{
+  background-color: #4C4C4C;
+  color: #fff;
+}
+
+.info img{
+  width: 65px;
+  border: 5px solid #424242;
+}
+.info .row .site-images .col{
+  padding: 0;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.info .row  .col .days{
+  color:#999
+}
+
+footer{
+  background: #424242;
+    padding: 15px 0;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #aaa;
+}
+
+footer span.site{
+  color: #fff;
+}
+
+
+/*********************************************/
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+  color: #169FE6;
+  transition: all .3s ease-in-out;
+}
+
+.nav-link:hover i{
+  transition: all .3s ease-in-out;
+  transform: scale(1.5);
+}
+.nav-item.active:hover i, .nav-item.active:hover .nav-link{
+  color: #fff;
+}
+
+.myga{
+  margin:3px 15px;
+}
+
+.form-group{
+  position: relative;
+}
+.search-icon{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  vertical-align: middle;
+  align-items: center;
+  align-content: center;
+}
+
+
+
+.social li{
+  color: #B8B8B8;
+  transition: all .3s linear;
+}
+.social li:hover{
+  color: #888;
+  cursor: pointer;
+
+}
